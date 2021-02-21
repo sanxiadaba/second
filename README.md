@@ -6,4 +6,3 @@ This may be my first respository
 if you see this.
 The strange,I bless you have a good life.
 i have nothing to say.
-插卡式交叉口
