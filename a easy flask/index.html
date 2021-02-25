@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+        今天是{{ var }},欢迎光临<br>
+        今天值班的有:<br>
+        {% for data in list %}    <!--用大括号和百分号括起来是控制结构,还有if-->
+            <li>{{ data }}</li>
+        {% endfor %}
+
+        任务:<br>    <!了解如何在页面打印表格,以及如何迭代,注意!>
+        <table border="1">
+            {% for key,values in task.items() %}
+            <tr>
+                <td>{{ key }}</td>
+                <td>{{ values }}</td>
+            </tr>
+        {% endfor %}
+        </table>
+</body>
+</html>
